@@ -1,0 +1,26 @@
+main{
+  font-size: 
+}
+body{
+  font-family: "Arial", "Meiryo", sans-serif;
+  font-size: 20px;
+}
+.pink{
+  color: pink;
+}
+.blue{
+  color: skyblue;
+}
+.h1{
+  letter-spacing: 1em;
+  font-family: 'Cherry Bomb One', cursive;
+  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Noto Serif JP', serif;
+  font-size: 40px;
+  letter-spacing: 1.2;
+  text-shadow: 1px 1px 2px gray;
+  border: solid 1px blue;
+}
+.thick{
+  font-weight: bold;
+}
