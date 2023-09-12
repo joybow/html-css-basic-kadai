@@ -120,10 +120,12 @@ $(function (){
       // エラーなし
       $('#email').css('background-color', '#fafafa');
     }
-    if($('#prefecture:selected').val(0)){
+        if($('#prefecture option:selected').text() === '選択してください'){
       $('#prefecture').css('background-color', '#f79999');
       error = true;
       message += '都道府県を選択して下さい\n';
+    } else {
+      $('#prefecture').css('background-color', '#fafafa');
     }
 
     // 電話番号のチェック（未入力はOK,未入力でない場合'-'を必須に）
