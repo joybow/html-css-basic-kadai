@@ -70,6 +70,10 @@ $(function (){
   $('#agree').click( function(){
     inputCheck();
   });
+  $('#prefecture').click( function(){
+    inputCheck();
+  });
+  
   //問い合わせフォームの入力チェック 
   function inputCheck(){
     // エラーのチェック結果
